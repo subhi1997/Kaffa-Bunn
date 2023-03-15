@@ -1,9 +1,4 @@
-/* *
-* Template Name: Restaurantly
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/ */
+
 
 /* --------------------------------------------------------------
 # General
@@ -364,13 +359,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile {
-  position: fixed;
+  position: inherit;
   overflow: hidden;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgb(0 0 0 / 0%);
   transition: 0.3s;
   z-index: 999;
 }
@@ -380,14 +375,16 @@ h1, h2, h3, h4, h5, h6 {
   top: 15px;
   right: 15px;
 }
-
+.mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
 .navbar-mobile ul {
   display: block;
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 15px;
-  left: 15px;
   padding: 10px 0;
   border-radius: 6px;
   background-color: #fff;
