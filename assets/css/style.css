@@ -173,14 +173,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-    /* line break for small screens
-
-@media (min-width: 768px) {
-  .small-screen-only {
-    display: none;
-  }
-}
-*/
 #header.header-scrolled {
   top: 0;
   background: rgba(0, 0, 0, 0.85);
